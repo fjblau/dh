@@ -1,0 +1,32 @@
+{
+  "info": {
+    "title": "Person",
+    "version": "1.0.0",
+    "baseUri": "http://example.org/",
+    "description": "",
+    "draft": false
+  },
+  "definitions": {
+    "Person": {
+      "description": "",
+      "required": [ ],
+      "rangeIndex": [ ],
+      "elementRangeIndex": [ ],
+      "wordLexicon": [ ],
+      "pii": [ ],
+      "properties": {
+        "personName": {
+          "datatype": "string",
+          "facetable": false,
+          "sortable": false,
+          "collation": "http://marklogic.com/collation/codepoint"
+        },
+        "personAge": {
+          "datatype": "integer",
+          "facetable": false,
+          "sortable": false
+        }
+      }
+    }
+  }
+}

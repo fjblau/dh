@@ -1,0 +1,13 @@
+{
+  "info": {
+    "title": "Thing",
+    "draft": false,
+    "version": "1.0.0",
+    "baseUri": "http://example.org/"
+  },
+  "definitions": {
+    "Thing": {
+      "properties": { }
+    }
+  }
+}

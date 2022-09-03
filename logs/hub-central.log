@@ -1,0 +1,20 @@
+2022-09-03 12:48:17,040 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] App host: localhost
+2022-09-03 12:48:17,052 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] REST admin username: dh
+2022-09-03 12:48:17,052 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-9] App Services username: dh
+2022-09-03 12:48:17,054 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-9] Admin interface host: localhost
+2022-09-03 12:48:17,054 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-9] Admin interface username: dh
+2022-09-03 12:48:17,055 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-9] Manage host: localhost
+2022-09-03 12:48:17,055 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-9] Manage username: dh
+2022-09-03 12:48:17,055 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-9] Manage user with security role: dh
+2022-09-03 12:48:17,093 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-9] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: dh, security username: dh]
+2022-09-03 12:48:17,121 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-9] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: dh, security username: dh]
+2022-09-03 12:54:48,284 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-3] Generating model-based resource configurations
+2022-09-03 12:54:48,292 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-3] Deploying search options
+2022-09-03 12:54:50,858 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-3] Deploying protected paths
+2022-09-03 12:54:50,861 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-3] Deploying query rolesets
+2022-09-03 12:54:50,861 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-3] Deploying database indexes
+2022-09-03 12:54:50,862 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-3] Sending JSON GET request as user 'dh' to path: /manage/v2/databases/data-hub-STAGING/properties
+2022-09-03 12:54:52,154 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-3] Sending JSON PUT request as user 'dh' to path: /manage/v2/databases/data-hub-STAGING/properties
+2022-09-03 12:54:52,814 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-3] Sending JSON GET request as user 'dh' to path: /manage/v2/databases/data-hub-FINAL/properties
+2022-09-03 12:54:53,848 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-3] Sending JSON PUT request as user 'dh' to path: /manage/v2/databases/data-hub-FINAL/properties
+2022-09-03 12:54:54,476 INFO com.marklogic.hub.central.controllers.ModelController [http-nio-8080-exec-3] Finished generating and deploying model-based resource configurations, time: 6192
