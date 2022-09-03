@@ -1,9 +1,9 @@
 # Script to Push to DH and Deploy to DH
 
-currDate=date
+currentDate=`date`
 
 git add *
-git commit -m "Pushed from DH: $currDate"
+git commit -m "Pushed from DH: $currentDate"
 git push
 
 ./gradlew hubDeployAsDeveloper -PenvironmentName=local -i
