@@ -25,6 +25,12 @@
           "datatype": "integer",
           "facetable": false,
           "sortable": false
+        },
+        "personCity": {
+          "datatype": "string",
+          "facetable": false,
+          "sortable": false,
+          "collation": "http://marklogic.com/collation/codepoint"
         }
       }
     }
