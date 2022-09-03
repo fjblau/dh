@@ -69,3 +69,13 @@
 2022-09-03 20:07:19,982 WARN okhttp3.internal.platform.Platform [OkHttp ConnectionPool] A connection to http://localhost:8013/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
 2022-09-03 20:07:19,982 WARN okhttp3.internal.platform.Platform [OkHttp ConnectionPool] A connection to http://localhost:8013/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
 2022-09-03 20:07:19,982 WARN okhttp3.internal.platform.Platform [OkHttp ConnectionPool] A connection to http://localhost:8013/ was leaked. Did you forget to close a response body? To see where this was allocated, set the OkHttpClient logger level to FINE: Logger.getLogger(OkHttpClient.class.getName()).setLevel(Level.FINE);
+2022-09-03 20:26:05,866 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] App host: localhost
+2022-09-03 20:26:05,866 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] REST admin username: dh
+2022-09-03 20:26:05,867 INFO com.marklogic.appdeployer.DefaultAppConfigFactory [http-nio-8080-exec-1] App Services username: dh
+2022-09-03 20:26:05,867 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-1] Admin interface host: localhost
+2022-09-03 20:26:05,868 INFO com.marklogic.mgmt.admin.DefaultAdminConfigFactory [http-nio-8080-exec-1] Admin interface username: dh
+2022-09-03 20:26:05,868 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-1] Manage host: localhost
+2022-09-03 20:26:05,868 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-1] Manage username: dh
+2022-09-03 20:26:05,868 INFO com.marklogic.mgmt.DefaultManageConfigFactory [http-nio-8080-exec-1] Manage user with security role: dh
+2022-09-03 20:26:05,883 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: dh, security username: dh]
+2022-09-03 20:26:05,900 INFO com.marklogic.mgmt.ManageClient [http-nio-8080-exec-1] Initializing ManageClient with manage config of: [ManageConfig host: localhost, port: 8002, username: dh, security username: dh]
