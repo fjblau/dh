@@ -2,7 +2,9 @@
 
 ./gradlew hubPullChanges -i
 
+currentDate=`date`
+
 git add *
-git commit -m "Pulled from DH"
+git commit -m "Pulled from DH: $currentDate"
 git push
 
